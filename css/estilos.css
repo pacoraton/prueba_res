@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+*{
+
+ box-sizing: border-box;
+
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+
+
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+
+/*Estilos del header*/
+
+.header{
+
+height: 60px;
+
+border:4px dotted #009;
+
+}
+
+.header .contedor{
+	display: flex;
+	color: #fff;
+
+  justify-content: space-between;
+
+}
+.icon_menu{
+margin-top: 0px;
+margin-bottom: 20px;
+width: 40px;
+height: 40px;
+font-size: 30px;
+background: #fff;
+color: #fff;
+text-align: center;
+line-height: 45px;
+border-radius: 5px;
+margin-left: auto;
+cursor: pointer;
+
+
+}
+
+.logo, .img_menu{
+
+margin: 5px;
+
+}
+.nave{
+
+ position: absolute;
+ top: 60px;
+ left:0%;
+ width: 100%
+
+
+}
+
+.menu{
+
+list-style: none;
+padding:0;
+margin: 0; 
+
+}
+
+.menu__link{
+
+display: block;
+padding: 15px;
+background:#FBA919; 
+text-decoration: none;
+color: #fff;
+
+}
+
+.menu__link:hover{
+
+background: white;
+color: #FBA919;
+
+}
+
+.mostrar{
+
+	left: 0;
+}
+
+/*estilos de menu*/
+
+
+.mostrar{
+
+
+left: 0;	
+}
