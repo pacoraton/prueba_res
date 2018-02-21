@@ -88,7 +88,7 @@ margin: 0;
 
 display: block;
 padding: 15px;
-background:#FBA919; 
+background:pink; 
 text-decoration: none;
 color: #fff;
 
@@ -107,10 +107,3 @@ color: #FBA919;
 }
 
 /*estilos de menu*/
-
-
-.mostrar{
-
-
-left: 0;	
-}
