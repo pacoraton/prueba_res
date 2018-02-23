@@ -1,22 +1,7 @@
+var btnMenu = document.getElementById('img1');
+var nav = document.getElementById('nav');
+btnMenu.addEventListener('click', function(){
 
-
-function inicio(){
-var btn_menu=document.getElementById('btn-menu');
-
-var nave=document.getElementById("nave");
-
-btn_menu.addEventListener("click",oculta);
-
-
-function oculta(){
-	alert("se cliqueo");
-	nave.classList.toogle('mostrar');
-}
-
-
-
-
-}
-
-document.addEventListener("DOMContentLoaded", inicio);
-
+  //nav.classList.add("mostrar")
+  nav.classList.toggle('mostrar');
+});

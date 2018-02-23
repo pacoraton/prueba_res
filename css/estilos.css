@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
 
 *{
-
  box-sizing: border-box;
-
 }
 
 img{
@@ -31,27 +29,32 @@ body{
 
 .header{
 
-height: 60px;
+height: 40px;
 
-border:4px dotted #009;
 
 }
 
 .header .contedor{
-	display: flex;
-	color: #fff;
-
+  display: flex;
   justify-content: space-between;
 
 }
-.icon_menu{
-margin-top: 0px;
-margin-bottom: 20px;
+.logo{
+	display: inline-block;
+	text-shadow: 1px 1px 3px black;
+
+}
+.logo, .icon-menu {
+  margin: 5px;
+}
+
+.icon-menu{
+float: right;	
+display: block;	
 width: 40px;
 height: 40px;
 font-size: 30px;
-background: #fff;
-color: #fff;
+background: #FBA919;
 text-align: center;
 line-height: 45px;
 border-radius: 5px;
@@ -61,17 +64,15 @@ cursor: pointer;
 
 }
 
-.logo, .img_menu{
-
-margin: 5px;
-
-}
-.nave{
+/*------Estilos del Menu-------------------*/
+.nav{
 
  position: absolute;
  top: 60px;
- left:0%;
- width: 100%
+ left:-100%;
+ width: 100%;
+ transition: all 0.5s; 
+
 
 
 }
