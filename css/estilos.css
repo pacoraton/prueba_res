@@ -125,7 +125,8 @@ color: #FBA919;
 
   margin-top: -40px;
   position:relative;
-  z-index: -1000;
+  z-index: -1;
+  margin-bottom: 15px;
 
 }
 .banner .contenedor{
@@ -143,4 +144,45 @@ color: #FBA919;
 }
 .banner_txt{
 display: none;
+}
+/*Estilos de info*/
+.info__columna{
+
+	background: #FBA919;
+	color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+
+/*Estilos de cursos*/
+.section__titulo{
+text-align: center;
+font-size: 30px;
+color: #FBA919;
+}
+
+
+.cursos_columna{
+position: relative;
+margin-bottom: 30px;
+
+}
+
+.cursos__descripcion{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	background: rgba(0,0,0,0.5);
+	width: 60%;
+	height: 100%;
+	padding: 5px;
+}
+
+.cursos__titulos{
+ font-size: 30px;
+ margin: 5px 0;
+
 }
