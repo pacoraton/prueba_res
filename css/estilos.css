@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+@import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnOwogIGZvbnQtc3R5bGU6IG5vcm1hbDsKICBmb250LXdlaWdodDogNDAwOwogIHNyYzogbG9jYWwoJ09wZW4gU2FucyBSZWd1bGFyJyksIGxvY2FsKCdPcGVuU2Fucy1SZWd1bGFyJyksIHVybChodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tL3Mvb3BlbnNhbnMvdjE1L21lbThZYUdzMTI2TWlacEJBLVVGVlowZS50dGYpIGZvcm1hdCgndHJ1ZXR5cGUnKTsKfQpAZm9udC1mYWNlIHsKICBmb250LWZhbWlseTogJ1JvYm90byBTbGFiJzsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDQwMDsKICBzcmM6IGxvY2FsKCdSb2JvdG8gU2xhYiBSZWd1bGFyJyksIGxvY2FsKCdSb2JvdG9TbGFiLVJlZ3VsYXInKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9yb2JvdG9zbGFiL3Y3L0JuZ01VWFpZVFhQSXZJQmdKSlNiNnVmTjVxQS50dGYpIGZvcm1hdCgndHJ1ZXR5cGUnKTsKfQo=');
 
 *{
  box-sizing: border-box;
@@ -48,8 +48,8 @@ height: 40px;
 .logo, .icon-menu {
   margin: 2px;
   color: white;
-  font-size: 1em;
-  margin-left: 55px;
+  font-size: 1.5em;
+  margin-left: 50px;
 }
 
 .icon-menu{	
@@ -155,7 +155,7 @@ display: none;
 }
 
 
-/*Estilos de cursos*/
+/*................Estilos de cursos...................*/
 .section__titulo{
 text-align: center;
 font-size: 30px;
@@ -164,8 +164,10 @@ color: #FBA919;
 
 
 .cursos_columna{
+width: 100%;	
 position: relative;
 margin-bottom: 30px;
+
 
 }
 
@@ -184,5 +186,28 @@ margin-bottom: 30px;
 .cursos__titulos{
  font-size: 30px;
  margin: 5px 0;
+
+}
+
+/*--------------------Estilos de footer-------------------*/
+
+.footer{
+	background: #333;
+	color:#fff;
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+.footer .social a{
+display: inline-block;
+
+}
+
+.footer .social img{
+	text-decoration: none;
+border-radius: 20%;
+margin: 5px;
 
 }
