@@ -5,3 +5,4 @@ btnMenu.addEventListener('click', function(){
   //nav.classList.add("mostrar")
   nav.classList.toggle('mostrar');
 });
+ 
